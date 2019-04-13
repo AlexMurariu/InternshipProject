@@ -1,0 +1,44 @@
+.my-profile {
+  max-height: 53vh;
+  width: 100%;
+  padding: 10px;
+  overflow-y: scroll;
+  flex-direction: column;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.card-heading {
+  padding: 10px;
+  text-align: center;
+}
+
+.fas {
+  padding-right: 15px;
+  margin-left: -5px;
+}
+
+.padding-top {
+  padding-top: 5px;
+}
+
+.modal-style {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10vh;
+  z-index: 1;
+}
+
+.loading-panel {
+  width: 20vw;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}

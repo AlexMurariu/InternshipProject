@@ -1,0 +1,48 @@
+@media only screen and (max-width: 250px) {
+  body {
+    overflow: hidden;
+  }
+}
+
+.article-pop {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10vh;
+  z-index: 1;
+}
+
+.small-article {
+  overflow: hidden;
+}
+
+.dont-show {
+  display: none;
+}
+
+.input-image {
+  padding-bottom: 15px;
+}
+
+.img-container {
+  display: flex;
+}
+
+.submit-button {
+  height: 50%;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.cke_show_borders {
+  overflow: scroll;
+}
+
+.ck-editor__editable {
+  height: 20vh;
+}

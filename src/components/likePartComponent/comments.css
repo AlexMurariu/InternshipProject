@@ -1,0 +1,20 @@
+.write-comm {
+    display: flex;
+}
+
+.send-icon {
+    color: #afb4bd;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+
+.display-none{
+    display: none;
+}
+

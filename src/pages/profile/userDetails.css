@@ -1,0 +1,92 @@
+.user-details {
+  width: 100%;
+}
+
+.field:disabled {
+  cursor: text;
+  background-color: white;
+}
+
+input[type="file"] {
+  background-color: white;
+}
+
+.far {
+  padding-right: 15px;
+  margin-left: -5px;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+}
+
+.form-row {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.disabled input,
+.disabled textarea {
+  border: 0px solid;
+  text-decoration: none;
+}
+
+.input-label {
+  margin: 0;
+  padding-top: 3%;
+  height: 100%;
+  text-align: center;
+}
+#username:read-only,
+#email:read-only {
+  border: 0px solid;
+  pointer-events: none;
+  background-color: inherit;
+}
+
+.addPadding {
+  padding: 10px;
+}
+
+.bio {
+  overflow-y: auto;
+  resize: none;
+}
+textarea::-webkit-scrollbar {
+  width: 1em;
+}
+
+textarea::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.image-container {
+  text-align: center;
+  overflow: hidden;
+}
+
+.user-image {
+  max-width: 100%;
+  max-height: 35vh;
+}
+
+.user-icon {
+  font-size: 170px;
+}
+
+.hidden {
+  display: none;
+}
+
+.image-name {
+  overflow-y: scroll;
+}
+
+.input-group {
+  z-index: 0;
+}

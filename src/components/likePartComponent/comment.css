@@ -1,0 +1,26 @@
+.like-comment {
+  text-decoration: none;
+  color: inherit;
+  padding-right: 20px;
+}
+
+.pull-right {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.like-date {
+  display: flex;
+  justify-content: start;
+}
+
+.profile-photo-comments {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+.media-left{
+  padding-right: 10px;
+}

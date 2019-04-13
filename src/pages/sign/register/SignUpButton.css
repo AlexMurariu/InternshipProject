@@ -1,0 +1,19 @@
+.SignUp-Button {
+  width: 80%;
+  height: 9.5%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: 1.7px solid rgb(223, 238, 242);
+  position: absolute;
+  top: 78.5%;
+  right: 10%;
+  background-color: rgb(125, 200, 85);
+  color: #fff;
+}
+
+.SignIn-Button a {
+  color: #fff;
+  text-decoration: none;
+}

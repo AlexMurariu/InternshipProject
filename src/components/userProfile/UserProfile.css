@@ -1,0 +1,132 @@
+.userProfile-button:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 4px solid transparent;
+  border-top-color: #000;
+  float: right;
+  margin: 17.5px 5px 0px 0px;
+}
+
+.userProfile-button-active:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 4px solid transparent;
+  border-right-color: #000;
+  float: right;
+  margin: 14.5px 5px 0px 0px;
+}
+
+.userProfile-dropdown {
+  height: 100%;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.userProfile-button:hover {
+  cursor: pointer;
+}
+
+.ul-userProfile-dropdown {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #fff;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 1;
+}
+
+.li-userProfile-dropdown {
+  color: #000;
+  text-decoration: none;
+}
+
+.a-userProfile-dropdown {
+  color: #000;
+  text-decoration: none;
+}
+.a-userProfile-dropdown:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.li-userProfile-dropdown {
+  padding: 8px 16px;
+  background-color: #fff;
+}
+
+.li-userProfile-dropdown:hover {
+  background-color: #e5e5e5;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.li-userProfile-dropdown-login {
+  background-color: rgb(208, 2, 27);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+}
+
+.li-userProfile-dropdown-login:hover {
+  background-color: rgb(183, 2, 24);
+  text-decoration: none;
+}
+
+.userProfile-button {
+  width: 200px;
+  height: 5vh;
+  padding: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #000;
+}
+
+.profilePicture-dropdown {
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 3px;
+  margin-right: 12px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  z-index: 1;
+}
+
+#nickName-dropdown {
+  align-self: center;
+  position: relative;
+  bottom: 1px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.myLogin {
+  height: 100%;
+  width: 100px;
+}
+
+#username-dropdown {
+  margin-bottom: 5px;
+}
+
+.no-user-icon {
+  margin-right: 10px;
+}

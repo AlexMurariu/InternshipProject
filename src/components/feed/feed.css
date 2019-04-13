@@ -1,0 +1,24 @@
+.fixed-card {
+    height: 70vh;
+    min-width: 40vh;
+    overflow-y: scroll;
+    flex-direction:column;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.card-heading{
+    padding-bottom: 10px;
+}
+
+.display-list{
+    margin: 0;
+    padding: 0px;
+}
+

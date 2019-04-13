@@ -1,0 +1,69 @@
+.SignIn-formContainer {
+  background-color: #fff;
+  width: 283px;
+  height: 414px;
+  float: right;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  top: 100px;
+  right: 105px;
+  bottom: 212px;
+}
+
+@media screen and (max-width: 876px) {
+  .SignIn-formContainer {
+    width: 283px;
+    height: 294px;
+    right: 25px;
+    bottom: 22px;
+    top: 100px;
+  }
+}
+
+@media screen and (max-height: 1024px) and (max-width: 876px) {
+  .SignIn-formContainer {
+    width: 263px;
+    height: 294px;
+    right: 25px;
+    top: 100px;
+  }
+}
+
+.SignIn-formHeader-Container {
+  height: 49px;
+  border-bottom: 1px solid rgb(190, 214, 211);
+}
+
+.SignIn-formTitle {
+  font-weight: bold;
+  position: relative;
+  left: 8%;
+  top: 23%;
+}
+
+.x-icon {
+  position: absolute;
+  left: 90%;
+  top: 5%;
+  color: rgb(205, 211, 218);
+}
+
+.x-icon:hover {
+  color: rgb(158, 194, 190);
+}
+
+.SignIn-FormHello {
+  font-size: 12px;
+  position: absolute;
+  left: 6.9%;
+  top: 18%;
+}
+
+@media screen and (max-width: 876px) {
+  .SignIn-FormHello {
+    left: 4%;
+  }
+}
